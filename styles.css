@@ -1,0 +1,231 @@
+body {
+    margin: 0px;
+}
+
+.hero-container, .activities-container, .guide-container {
+    margin: 0px auto;
+
+    width: 720px;
+    height: 343px;
+}
+
+.hero-container {
+    background: url("assets/city.jpg");
+    background-size: cover;
+
+    text-align: center;
+}
+
+.hero-text-grp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 3px 12px 5px 12px;
+    margin: 0px; /* comment this if suitable */
+    margin-top: 119px;
+
+    border-radius: 10px;
+    background: #1D3557;
+
+    width: 225px;
+}
+
+.secondary-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18.72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    padding: 5px 29px 8px 28px;
+    margin: 0px; /* comment this if suitable */
+    margin-top: 11px;
+
+    border-radius: 10px;
+    background: #457B9D;
+
+    width: 412px;
+}
+
+/* --- */
+
+.activities-container {
+    display: flex;
+    flex-direction: column;
+
+    background: #F1FAEE;
+
+    align-items: center;
+
+    height: 450px;
+}
+
+.activity-text-main {
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    margin-top: 39px;
+}
+
+.activities-list {
+    display: flex;
+
+    margin-top: 54px;
+
+    gap: 10px;
+}
+
+.activity-card {
+    display: flex;
+    flex-direction: column;
+
+    width: 198px;
+    min-height: 227px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.activity-img {
+    min-width: 103.974px;
+    min-height: 103.90px;
+    /* height: fit-content; */
+
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.activity-img#c1 {
+    background-image: url('assets/activities/theatre.jpg');
+}
+
+.activity-img#c2 {
+    background-image: url('assets/activities/park.jpg');
+}
+
+.activity-img#c3 {
+    background-image: url('assets/activities/sports.jpg');
+}
+
+.activity-main-text {
+    display: block;
+
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.activity-secondary-text {
+    display: block;
+
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* --- */
+
+.guide-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guide-card {
+    width: 400px;
+    height: 294px;
+
+    border-radius: 10px;
+    background: #A8DADC;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+
+    display: flex;
+    align-items: center;
+}
+
+.guide-img {
+    flex: 1;
+
+    width: 180px;
+    height: 248.667px;
+
+    border-radius: 10px;
+
+    background-image: url('assets/person.png');
+
+    margin-left: 13px;
+    margin-right: 8px
+}
+
+.guide-text-grp {
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    
+    margin-right: 12px;
+}
+
+.guide-primary {
+    display: block;
+
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.guide-secondary {
+    display: block;
+
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.guide-owner {
+    display: block;
+
+    color: #1D3557;
+    text-align: center;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
