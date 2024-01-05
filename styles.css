@@ -5,8 +5,11 @@ body {
 .hero-container, .activities-container, .guide-container {
     margin: 0px auto;
 
-    width: 720px;
-    height: 343px;
+    width: 100%;
+    /* height: calc(100% / (1 / )); */
+    aspect-ratio: 2.09912536443;
+    min-width: 679px;
+    max-width: 1243px;
 }
 
 .hero-container {
@@ -88,9 +91,11 @@ body {
 .activities-list {
     display: flex;
 
+    justify-content: space-between;
+
     margin-top: 54px;
 
-    gap: 10px;
+    gap: 40px;
 }
 
 .activity-card {
