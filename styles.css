@@ -36,9 +36,9 @@ body {
     margin-top: 119px;
 
     border-radius: 10px;
-    background: #1D3557;
+    background: #381d57;
 
-    width: 225px;
+    width: 300px;
 }
 
 .secondary-text {
@@ -55,7 +55,7 @@ body {
     margin-top: 11px;
 
     border-radius: 10px;
-    background: #457B9D;
+    background: #5c459d;
 
     width: 412px;
 }
@@ -66,7 +66,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    background: #F1FAEE;
+    background: #faeef5;
 
     align-items: center;
 
@@ -74,7 +74,7 @@ body {
 }
 
 .activity-text-main {
-    color: #1D3557;
+    color: #421d57;
     text-align: center;
     font-family: Arial;
     font-size: 24px;
@@ -114,21 +114,25 @@ body {
 }
 
 .activity-img#c1 {
-    background-image: url('assets/activities/theatre.jpg');
+    background-image: url('assets/activities/car.jpg');
+    background-position: 15%;
 }
 
 .activity-img#c2 {
-    background-image: url('assets/activities/park.jpg');
+    background-image: url('assets/activities/club.jpg');
+    background-position: 90% 100%;
 }
 
 .activity-img#c3 {
-    background-image: url('assets/activities/sports.jpg');
+    background-image: url('assets/activities/gun.jpg');
+    background-position: 28% 50%;
+    background-size: cover;
 }
 
 .activity-main-text {
     display: block;
 
-    color: #1D3557;
+    color: #401d57;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
@@ -140,7 +144,7 @@ body {
 .activity-secondary-text {
     display: block;
 
-    color: #1D3557;
+    color: #3b1d57;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
@@ -162,8 +166,8 @@ body {
     height: 294px;
 
     border-radius: 10px;
-    background: #A8DADC;
-    box-shadow: 0px 6px 0px 0px #1D3557;
+    background: #f0cff1;
+    box-shadow: 0px 6px 0px 0px #1d2357;
 
     display: flex;
     align-items: center;
@@ -177,7 +181,9 @@ body {
 
     border-radius: 10px;
 
-    background-image: url('assets/person.png');
+    background-image: url('assets/person.jpg');
+    background-size: cover;
+    background-position: 65% 100%;
 
     margin-left: 13px;
     margin-right: 8px
@@ -197,7 +203,7 @@ body {
 .guide-primary {
     display: block;
 
-    color: #1D3557;
+    color: #5c459d;
     text-align: center;
     font-family: Arial;
     font-size: 24px;
@@ -209,10 +215,10 @@ body {
 .guide-secondary {
     display: block;
 
-    color: #1D3557;
+    color: #5c459d;
     text-align: center;
     font-family: Arial;
-    font-size: 16px;
+    font-size: 15px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
@@ -221,11 +227,11 @@ body {
 .guide-owner {
     display: block;
 
-    color: #1D3557;
+    color: #5c459d;
     text-align: center;
     font-family: Arial;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+} 
